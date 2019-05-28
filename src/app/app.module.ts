@@ -1,16 +1,19 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { PhotographerComponent } from './photographer/photographer.component';
+import { PhotographerProfileComponent } from './photographer-profile/photographer-profile.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PhotographerComponent
+    PhotographerComponent,
+    PhotographerProfileComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

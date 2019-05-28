@@ -1,1 +1,18 @@
-<h2><Photographer class="name"></Photographer></h2>>
+
+<div *ngIf="selectedPhotographer">
+  <h2>{{selectedPhotographer.name}} Details</h2>
+  <div><span>id: </span>{{selectedPhotographer.id}}</div>
+  <div>
+    <label>name:
+      <input [(ngModel)]="selectedPhotographer.name" placeholder="name"/>
+    </label>
+  </div>
+</div>
+<h2>Our Photographers</h2>
+<ul class="photographer">
+  <li *ngFor="let photog of photographers" 
+    (click)="onSelect(photog)" 
+    [class.selected]="photog === selectedPhotographer">
+    <span class="badge">{{photog.id}}</span> {{photog.name}}
+  </li>
+</ul>
