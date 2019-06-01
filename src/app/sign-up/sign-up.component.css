@@ -10,16 +10,25 @@
 .userType {
     margin: auto;
 }
+.form-invalid {
+    color: #FF715B;
+    
+}
 #reset-btn {
+    background-color: #FF715B;
+    border-color: #FF715B;
     color: white;
+    margin: auto;
+    margin-right: 0px;
+    display: block;
 }
 #reset-btn:hover {
     color: white;
-    margin: auto;
-    display:block;
+    
 }
 #profile-btn {
-    margin: auto;
+    margin: auto;    
+    margin-left: 5px;
     display: block;
 }
 #radio-btn {

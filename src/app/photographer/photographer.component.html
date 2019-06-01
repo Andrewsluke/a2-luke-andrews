@@ -19,20 +19,10 @@
             <span class="badge">{{photog.id}}</span>
             <h5 class="card-title">{{photog.name}}</h5>
             <p class="card-text">{{photog.bio}}</p>
-            <a href="#" id="profile-btn" class="btn btn-primary">{{photog.name}}'s Profile</a>
+            <a routerLink="/profile/{{photog.id}}" id="profile-btn" class="btn btn-primary">{{photog.name}}'s Profile</a>
           </div>
         </div>
       </div>
     </a>
-
-    <!--
-    <ul class="photographer list-group-horizontal">
-      <li class="list-group-item float-left" *ngFor="let photog of photographers" (click)="onSelect(photog)"
-        [class.selected]="photog === selectedPhotographer">
-                
-      </li>
-    </ul>
-    -->
-  </div>
-  <app-photographer-profile [photographer]="selectedPhotographer"></app-photographer-profile>
+  </div>  
 </div>

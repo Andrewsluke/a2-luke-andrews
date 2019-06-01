@@ -1,27 +1,39 @@
-# AWSA2
+PAGES COMPLETED:
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.9.
+1) Index
+Can be accessed by going to the base URL: 
+OR by clicking the Page Title in the header (Photobook)
 
-## Development server
+2) Sign Up
+Can be acessed by going to URL:
+OR by clicking the Sign Up button in the headre
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+3) Photographer Profile
+Can be accessed by going to URL:
+OR by clicking the "____'s Profile" button on the Photographer cards on the Index page
 
-## Code scaffolding
+4) Booking Registration
+Can be accessed by going to URL:
+OR by going to a Photographer profile (see before) and clicking the Book Now button
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+IMAGES:
 
-## Running unit tests
+Background for Sign Up Page - https://unsplash.com/photos/TIvFLeqZ4ec
+profiles {
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+}
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+RESOURCES USED:
+
+Bootstrap - Most styling was modified, but utilized general look and feeling for most components. The bootstrap grid
+            system is also super useful and used throughout the site.
+
+Angular Tutorial - Prior to this assignment I didn't know Angular at all, therefore I used the following tutorial;
+		   https://angular.io/tutorial. This was mostly used in understanding the passing of data 
+		   using Angular.
+

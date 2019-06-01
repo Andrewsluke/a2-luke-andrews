@@ -8,16 +8,10 @@ import { PHOTOGRAPHERS } from '../mock-photographers';
   styleUrls: ['./photographer.component.css']
 })
 export class PhotographerComponent implements OnInit {
-  photographers = PHOTOGRAPHERS; //Array is a list of "mock" photographers temporarily
-  selectedPhotographer; //represents photographer that is clicked
-
-  
+  photographers = PHOTOGRAPHERS; //Array is a list of "mock" photographers temporarily  
   constructor() { }
 
   ngOnInit() {
-  }
-  onSelect(Photog: Photographer): void {
-    this.selectedPhotographer = Photog;
   }
 
 }

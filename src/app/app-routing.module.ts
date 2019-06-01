@@ -4,11 +4,16 @@ import { CommonModule } from '@angular/common';
 import { PhotographerComponent } from './photographer/photographer.component';
 import { SignUpComponent } from './sign-up/sign-up.component';
 import { BookingComponent } from './booking/booking.component';
+import { PhotographerProfileComponent } from './photographer-profile/photographer-profile.component';
+
 
 const routes: Routes = [
-  { path: "", component: PhotographerComponent},
+  { path: "index", component: PhotographerComponent},
+  { path: "", redirectTo: "index", pathMatch: "full"},
   { path: "sign-up", component: SignUpComponent },
-  { path: "booking", component: BookingComponent }
+  { path: "booking", component: BookingComponent },
+  { path: "profile/:id", component: PhotographerProfileComponent },
+  { path: "profile", redirectTo: "index", pathMatch: "full"}
 ]
 @NgModule({
   imports: [ RouterModule.forRoot(routes) ],
