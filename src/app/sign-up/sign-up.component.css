@@ -1,0 +1,44 @@
+#signup-card {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.card-header {
+    width: 100%;
+}
+.userType {
+    margin: auto;
+}
+#reset-btn {
+    color: white;
+}
+#reset-btn:hover {
+    color: white;
+    margin: auto;
+    display:block;
+}
+#profile-btn {
+    margin: auto;
+    display: block;
+}
+#radio-btn {
+    background-color: transparent;
+    border-color: #1EA896;
+    color: black;
+    width: 145px;
+    height: 50px;
+    margin: auto;
+}
+#radio-btn:last-of-type {
+    margin-left: 5px;
+}
+#radio-btn:hover {
+    background-color: #1EA896;
+}
+#radio-btn:active {
+    background-color: #1EA896
+}
+
+div > input[type="radio"]:checked ~label { 
+    background-color: orange; }

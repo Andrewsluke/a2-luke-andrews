@@ -1,3 +1,11 @@
-<p>
-  photographer-profile works!
-</p>
+<!-- Photographer profile page -->
+
+<div *ngIf="photographer">
+  <h2>{{photographer.name}} Details</h2>
+  <div><span>id: </span>{{photographer.id}}</div>
+  <div>
+    <label>name:
+      <input [(ngModel)]="photographer.name" placeholder="name"/>
+    </label>
+  </div>
+</div>

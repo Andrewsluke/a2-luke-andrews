@@ -8,8 +8,8 @@ import { PHOTOGRAPHERS } from '../mock-photographers';
   styleUrls: ['./photographer.component.css']
 })
 export class PhotographerComponent implements OnInit {
-  photographers = PHOTOGRAPHERS;
-  selectedPhotographer;
+  photographers = PHOTOGRAPHERS; //Array is a list of "mock" photographers temporarily
+  selectedPhotographer; //represents photographer that is clicked
 
   
   constructor() { }

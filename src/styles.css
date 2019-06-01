@@ -1,4 +1,71 @@
 /* You can add global styles to this file, and also import other style files */
+.zero-padding {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+.rm-pdgright {
+  padding-right: 0px !important;
+}
+.searchbar {
+  width: 40%;
+}
+.my-nav {
+  background-color: #1EA896;
+}
+.page-footer {
+  border-radius: 3px;
+  padding-top: 15px;
+  background-color: #FF715B;
+  width: 100%;
+}
+.row {
+  width: 100%;
+  margin: 0;
+}
+.height-fix {
+  height: 42px;
+}
+#customrow {
+  padding-left: 35px;
+}
+#photog-display {
+  background-color: #4C5454;
+  padding-bottom: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#profile-btn {
+  background-color: #1EA896;
+  border-color: #1EA896;
+}
+#nav-btn {
+  background-color: transparent;
+  border-color: #FF715B;
+}
+#nav-btn:hover {
+  background-color: #FF715B !important;
+}
+#nav-btn:focus {
+  box-shadow: 0 0 0 0.1rem #FF715B;
+}
+#bordered div {
+  border-top: 3px !important;
+  border-style: solid; 
+}
+#signup-body {
+  /*https://unsplash.com/photos/TIvFLeqZ4ec*/
+  background-image: url("/assets/background.jpg"); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  width: 100%
+}
+nav div a {
+  color: white;
+}
 h1 {
     color: #369;
     font-family: Arial, Helvetica, sans-serif;
