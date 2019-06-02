@@ -4,11 +4,11 @@ import { ActivatedRoute } from '@angular/router';
 import { PhotographerService }  from '../photographer.service';
 
 @Component({
-  selector: 'app-photographer-profile',
-  templateUrl: './photographer-profile.component.html',
-  styleUrls: ['./photographer-profile.component.css']
+  selector: 'app-booking',
+  templateUrl: './booking.component.html',
+  styleUrls: ['./booking.component.css']
 })
-export class PhotographerProfileComponent implements OnInit {
+export class BookingComponent implements OnInit {
   @Input() photographer: Photographer;
 
   constructor(
@@ -25,5 +25,4 @@ export class PhotographerProfileComponent implements OnInit {
     this.photographerService.getPhotographer(id)
       .subscribe(photographer => this.photographer = photographer);
   }
-
 }
