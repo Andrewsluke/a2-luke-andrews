@@ -2,3 +2,18 @@
     margin-top:50px;
     margin-bottom: 50px;
 }
+#book-now {
+    background-color: #FF715B;
+    border-color: #FF715B;
+    float: right;
+    height: 50px;
+}
+#photographer-rate {
+    background-color: #1EA896;
+    border-color: #1EA896;
+    float: right;
+    height: 50px;
+}
+.input-group-text {
+    width: 85px;
+}

@@ -11,7 +11,7 @@ const routes: Routes = [
   { path: "index", component: PhotographerComponent},
   { path: "", redirectTo: "index", pathMatch: "full"},
   { path: "sign-up", component: SignUpComponent },
-  { path: "booking", component: BookingComponent },
+  { path: "booking/:id", component: BookingComponent },
   { path: "profile/:id", component: PhotographerProfileComponent },
   { path: "profile", redirectTo: "index", pathMatch: "full"}
 ]
