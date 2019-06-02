@@ -1,7 +1,7 @@
 <!--large bg image-->
 <div>
   <!--https://unsplash.com/photos/IMRXEDXStM4-->
-  <img style="width: 100%" src="../../assets/index.jpg">
+  <img alt="Index" style="width: 100%" src="../../assets/index.jpg">
 </div>
 
 <!-- Photographer List -->
@@ -11,7 +11,7 @@
   </div>
   <div class="row" id="customrow">
 
-    <a *ngFor="let photog of photographers" class="col-1-3">
+    <div *ngFor="let photog of photographers" class="col-1-3">
       <div class="col-sm-3 rm-pdgright">
         <div class="card photog-card" id="photogcard" (click)="onSelect(photog)" style="width: 18rem;">
           <img src="{{photog.image}}" style="width: 286px; height: 190px;" class="card-img-top" alt="...">
@@ -23,6 +23,6 @@
           </div>
         </div>
       </div>
-    </a>
+    </div>
   </div>  
 </div>

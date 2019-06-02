@@ -31,7 +31,7 @@
     margin-left: 5px;
     display: block;
 }
-#radio-btn {
+#radio-btn1 {
     background-color: transparent;
     border-color: #1EA896;
     color: black;
@@ -39,15 +39,29 @@
     height: 50px;
     margin: auto;
 }
-#radio-btn:last-of-type {
-    margin-left: 5px;
-}
-#radio-btn:hover {
+
+#radio-btn1:hover {
     background-color: #1EA896;
 }
-#radio-btn:active {
+#radio-btn1:active {
     background-color: #1EA896
 }
+#radio-btn2 {
+    background-color: transparent;
+    border-color: #1EA896;
+    color: black;
+    width: 145px;
+    height: 50px;
+    margin: auto;
+    margin-left: 5px;
+}
+#radio-btn2:hover {
+    background-color: #1EA896;
+}
+#radio-btn2:active {
+    background-color: #1EA896
+}
+
 
 div > input[type="radio"]:checked ~label { 
     background-color: orange; }
