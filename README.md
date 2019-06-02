@@ -11,6 +11,7 @@ OR by clicking the Sign Up button in the headre
 3) Photographer Profile
 Can be accessed by going to URL:
 OR by clicking the "____'s Profile" button on the Photographer cards on the Index page
+Note that this profile is from a customer's perspective - and therefore the user isn't able to edit it.
 
 4) Booking Registration
 Can be accessed by going to URL:
@@ -21,9 +22,11 @@ OR by going to a Photographer profile (see before) and clicking the Book Now but
 IMAGES:
 
 Background for Sign Up Page - https://unsplash.com/photos/TIvFLeqZ4ec
-profiles {
-
-
+Profile Images {
+	https://unsplash.com/photos/-10t7s-rYzE
+	https://unsplash.com/photos/4Xk43LiDtZc
+	https://unsplash.com/photos/JtV6zyOZSrA
+	https://unsplash.com/photos/IegYaCY101s
 }
 
 
